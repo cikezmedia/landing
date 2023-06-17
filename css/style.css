@@ -179,7 +179,7 @@ body {
   position: relative;
 }
 .mobile > .list {
-  gap: 30px;
+  gap: 40px;
 }
 .nav-mobile {
   position: relative;
@@ -222,6 +222,7 @@ body {
   background-color: var(--bg-dark);
   position: absolute;
   padding: 30px;
+  font-weight: 600;
   width: 100%;
 }
 .show {
