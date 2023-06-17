@@ -487,3 +487,54 @@ body {
     width: 120px;
   }
 }
+
+.testimonies {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 100px;
+}
+.testimonies > .features {
+  padding-bottom: 0;
+}
+.testimonies > p {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.ibm {
+  width: 80px;
+  margin: auto;
+  padding-top: 8px;
+}
+.testimonies > .author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: auto;
+  text-align: center;
+}
+.testimonies > .author > img {
+  width: 40px;
+}
+.testimonies > .author > .bio {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin: auto;
+  text-align: start;
+  font-size: 1.3rem;
+}
+.testimonies > .link {
+  padding-top: 30px;
+}
+
+.with-bg {
+  background-color: var(--bg-dark);
+  color: #fff;
+}
