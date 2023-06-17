@@ -139,11 +139,11 @@ body {
 .btn {
   background-color: var(--primary-color);
   color: #fff;
-  padding: 8px 40px;
   font-size: 1.6rem;
   border: 0;
   border-radius: 35px;
   text-decoration: none;
+  padding: 18px 50px;
 }
 .btn:hover {
   background-color: var(--bg-dark);
@@ -261,9 +261,6 @@ body {
     font-weight: 700;
     font-size: 74px;
     line-height: 1.2;
-  }
-  .btn {
-    padding: 18px 50px;
   }
 }
 .reverse {
