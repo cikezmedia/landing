@@ -396,6 +396,7 @@ body {
   grid-template-columns: repeat(1, 1fr);
   padding-top: 20px;
   align-items: center;
+  padding-bottom: 20px;
 }
 @media screen and (min-width: 768px) {
   .subscribe {
@@ -435,7 +436,7 @@ body {
 }
 .input-group > input {
   background: #f4f4f4;
-  padding: 10px 4px;
+  padding: 16px 4px;
   border: 0;
   border-radius: 39px;
 }
@@ -446,7 +447,7 @@ body {
 .input-group > button {
   background: var(--primary-color);
   color: #fff;
-  padding: 10px 0;
+  padding: 16px 0;
   border: 0;
   border-radius: 39px;
 }
