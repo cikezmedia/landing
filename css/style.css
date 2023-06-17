@@ -534,7 +534,110 @@ body {
   padding-top: 30px;
 }
 
+.pricing {
+  padding-bottom: 100px;
+}
+
+.pricing > .cards {
+  font-family: 'Inter' Arial, Helvetica, sans-serif;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin: auto;
+  gap: 30px;
+  max-width: 860px;
+  padding-top: 40px;
+}
+
+.pricing > .cards > .card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 30px;
+  border-radius: 10px;
+  padding: 30px 0;
+  gap: 10px;
+}
+
+.pricing > .cards > .card > .days {
+  font-size: 1.5rem;
+}
+
+.cards > .card > .title {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.cards > .card > p {
+  font-size: 1.2rem;
+  font-weight: 200;
+  padding: 0 50px;
+  margin-top: -6px;
+}
+
+.cards > .card > .amount {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  gap: 6px;
+}
+
+.cards > .card > .amount > h2 {
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.cards > .card > .amount > .price {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.cards > .card > .amount > .price > span {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.cards > .card > button {
+  background: var(--primary-color);
+  color: #fff;
+  padding: 10px 0;
+  margin: 0 30px;
+  border: 0;
+  border-radius: 39px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .pricing > .cards {
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 0;
+  }
+  .pricing > .cards > .card {
+    margin: auto;
+    width: 100%;
+  }
+}
 .with-bg {
   background-color: var(--bg-dark);
+  color: #fff;
+}
+.cards > .card-bg > .btn-white {
+  background: #fff;
+  color: var(--primary-color);
+  margin-bottom: 40px;
+}
+.cards > .card-bg > .title {
+  margin-top: 40px;
+}
+
+.card-white {
+  background: #fff;
+  color: #252b42;
+}
+.card-bg {
+  background: var(--primary-color);
   color: #fff;
 }
