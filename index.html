@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cloud Land - Modern Landing Page</title>
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -14,10 +15,10 @@
         <div class="nav-menu">
           <ul class="list row align-center">
             <li><a href="./">Home</a></li>
-            <li><a href="#product">Product</a></li>
-            <li><a href="#pricing">Pricing</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#partners">Partners</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact">Contact Us</a></li>
           </ul>
           <img src="img/logo.svg" class="logo" alt="Logo" />
         </div>
@@ -34,24 +35,33 @@
         </div>
         <ul id="menu" class="nav-items show list column">
           <li><a href="./">Home</a></li>
-          <li><a href="#product">Product</a></li>
-          <li><a href="#pricing">Pricing</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#partners">Partners</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact Us</a></li>
         </ul>
       </header>
 
       <div class="hero">
-        <h1>The best products start with Figma</h1>
-        <p class="content">
+        <h1 data-aos="zoom-in" data-aos-duration="4000">
+          The best products start with Figma
+        </h1>
+        <p class="content" data-aos="zoom-in" data-aos-duration="4000">
           Most calendars are designed for teams. Slate is designed for
           freelancers
         </p>
-        <a href="" class="btn">Try For Free</a>
+        <a href="" data-aos="fade-up" data-aos-duration="6000" class="btn"
+          >Try For Free</a
+        >
       </div>
     </div>
 
-    <section class="container">
+    <section
+      class="container"
+      id="about"
+      data-aos="zoom-in"
+      data-aos-duration="5000"
+    >
       <div class="features">
         <h2>Features</h2>
         <p>
@@ -61,7 +71,11 @@
       </div>
     </section>
 
-    <section class="featured container">
+    <section
+      class="featured container"
+      data-aos="zoom-in"
+      data-aos-duration="5000"
+    >
       <div class="featured-items">
         <div class="featured-item">
           <img src="img/mdi_drawing.svg" class="icon" alt="" />
@@ -98,7 +112,7 @@
 
     <section class="container">
       <div class="organize-items col-2">
-        <div class="card">
+        <div class="card" data-aos="fade-right" data-aos-duration="4000">
           <h3>Fastest way to organize</h3>
           <p>
             Most calendars are designed for teams. Slate is designed for
@@ -109,13 +123,13 @@
           </div>
         </div>
 
-        <div class="card">
+        <div class="card" data-aos="fade-left" data-aos-duration="4000">
           <img src="img/laptop.png" alt="" />
         </div>
       </div>
     </section>
 
-    <section class="container">
+    <section class="container" data-aos="zoom-in" data-aos-duration="4000">
       <div class="features">
         <h2>Newsletter</h2>
         <p>
@@ -127,8 +141,13 @@
 
     <section class="container">
       <div class="subscribe">
-        <img src="img/subscribe.png" alt="" />
-        <div class="form-group">
+        <img
+          src="img/subscribe.png"
+          alt=""
+          data-aos="fade-right"
+          data-aos-duration="4000"
+        />
+        <div class="form-group" data-aos="fade-left" data-aos-duration="4000">
           <small>At your fingertips</small>
           <h3>Lightning fast prototyping</h3>
           <small>Subscribe to our Newsletter</small>
@@ -141,7 +160,12 @@
       </div>
     </section>
 
-    <section class="container">
+    <section
+      class="container"
+      id="partners"
+      data-aos="zoom-in"
+      data-aos-duration="4000"
+    >
       <div class="features">
         <h2>Partners</h2>
         <p>
@@ -157,7 +181,11 @@
       </div>
     </section>
 
-    <section class="testimonies container">
+    <section
+      class="testimonies container"
+      data-aos="zoom-in"
+      data-aos-duration="4000"
+    >
       <div class="features">
         <h2>Testimonials</h2>
         <img src="img/ibm.png" class="ibm" alt="" />
@@ -178,9 +206,9 @@
       </div>
     </section>
 
-    <section class="with-bg">
+    <section class="with-bg" id="pricing">
       <div class="pricing container">
-        <div class="features">
+        <div class="features" data-aos="zoom-in" data-aos-duration="4000">
           <h2>Pricing</h2>
           <p>
             Most calendars are designed for teams. Slate is designed for
@@ -188,7 +216,11 @@
           </p>
         </div>
         <div class="cards">
-          <div class="card card-white">
+          <div
+            class="card card-white"
+            data-aos="fade-right"
+            data-aos-duration="4000"
+          >
             <span class="title">Free</span>
             <p>Organize across all apps by hand</p>
             <div class="amount">
@@ -203,7 +235,7 @@
             <button>Order Now</button>
           </div>
 
-          <div class="card card-bg">
+          <div class="card card-bg" data-aos="fade-up" data-aos-duration="6000">
             <span class="title">Standard</span>
             <p>Organize across all apps by hand</p>
             <div class="amount">
@@ -218,7 +250,11 @@
             <button class="btn-white">Order Now</button>
           </div>
 
-          <div class="card card-white">
+          <div
+            class="card card-white"
+            data-aos="fade-left"
+            data-aos-duration="4000"
+          >
             <span class="title">Business</span>
             <p>Organize across all apps by hand</p>
             <div class="amount">
@@ -236,13 +272,34 @@
       </div>
     </section>
 
-    <section class="container">
+    <section
+      class="container"
+      id="contact"
+      data-aos="zoom-in"
+      data-aos-duration="4000"
+    >
       <div class="features">
         <h2>Contact Us</h2>
         <p>
           Most calendars are designed for teams. Slate is designed for
           freelancers
         </p>
+      </div>
+      <div class="contact">
+        <div class="card">
+          <img src="img/map.svg" alt="" />
+          <p>6386 Spring St undefined Anchorage, Georgia 12473 United States</p>
+        </div>
+        <div class="card">
+          <img src="img/tel.svg" alt="" />
+          <p>(904) 600-8000</p>
+          <p>(905) 700-9000</p>
+        </div>
+        <div class="card">
+          <img src="img/mail.svg" alt="" />
+          <p>info@example.com</p>
+          <p>admin@example.com</p>
+        </div>
       </div>
       <form class="" action="" method="post">
         <div class="form-col">
@@ -258,7 +315,60 @@
       </form>
     </section>
 
+    <footer class="with-bg">
+      <div class="container footer-body">
+        <div class="card-links">
+          <div class="card">
+            <h4>Pages</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Products</a></li>
+            </ul>
+          </div>
+          <div class="card">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Products</a></li>
+            </ul>
+          </div>
+          <div class="card">
+            <h4>Contact</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Products</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="card-social">
+          <div class="social-item">
+            <img src="img/map.svg" alt="" />
+            <p>
+              6386 Spring St undefined Anchorage, Georgia 12473 United States
+            </p>
+          </div>
+          <div class="social-item">
+            <img src="img/tel.svg" alt="" />
+            <p>(904) 600-8000</p>
+          </div>
+          <div class="social-item">
+            <img src="img/mail.svg" alt="" />
+            <p>admin@example.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="copyright container">
+        &copy;2023 Cloud Land | All Rights Reserved
+      </div>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
